@@ -20,7 +20,7 @@ def chat():
             json={
                 "model": MODEL,
                 "messages": messages,
-                "stream": False   # 👈 THIS FIXES IT
+                "stream": False  
             }
         )
 
