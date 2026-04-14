@@ -3,14 +3,14 @@
 An AI-powered smart home assistant that connects a local LLM (Ollama) with IoT devices using MQTT.  
 The system allows natural language commands like “turn on the light” to control real hardware. This example project controlls the lamps called kitchen, desk, and cupboard.
 
-## 🚀 Features
+## Features
 
-- 🧠 Natural language control using local LLM (Ollama)
-- 📡 MQTT-based communication with IoT devices
-- 💡 Smart home automation (lights, sensors, etc.)
-- 🐳 Fully Dockerized setup
+- Natural language control using local LLM (Ollama)
+- MQTT-based communication with IoT devices
+- Smart home automation (lights, sensors, etc.)
+- Fully Dockerized setup
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - Python
 - Ollama (LLM runtime)
@@ -18,7 +18,7 @@ The system allows natural language commands like “turn on the light” to cont
 - Docker / Docker Compose
 - IoT
 
-## 🏗️ Architecture
+## Architecture
 
 User → [NLP Model (Ollama) → Python Agent → MQTT Broker] → IoT Devices
 
